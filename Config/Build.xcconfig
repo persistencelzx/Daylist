@@ -1,0 +1,5 @@
+// Override signing and bundle IDs in Local.xcconfig (ignored by Git).
+BUNDLE_IDENTIFIER = com.example.daylist
+APP_GROUP_IDENTIFIER = group.$(BUNDLE_IDENTIFIER)
+DEVELOPMENT_TEAM =
+#include? "Local.xcconfig"

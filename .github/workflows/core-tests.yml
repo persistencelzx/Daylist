@@ -1,0 +1,27 @@
+name: Core tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  core-tests:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run core XCTest suite
+        run: swift test
+      - name: Validate project and property lists
+        run: |
+          plutil -lint Daylist.xcodeproj/project.pbxproj
+          for file in Config/*.plist Config/*.entitlements App/PrivacyInfo.xcprivacy; do
+            plutil -lint "$file"
+          done
+      - name: Validate shell scripts
+        run: |
+          for file in Scripts/*.sh; do
+            bash -n "$file"
+          done

@@ -1,0 +1,4 @@
+// Copy to Local.xcconfig; use identifiers registered with your Apple team.
+BUNDLE_IDENTIFIER = com.yourname.daylist
+APP_GROUP_IDENTIFIER = group.com.yourname.daylist
+DEVELOPMENT_TEAM = YOURTEAMID

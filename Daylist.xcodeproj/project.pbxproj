@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C7C756A888474B1998A3FF8 /* Shared/ReminderPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A73B0C9C58DA0C7F1FB41 /* Shared/ReminderPlan.swift */; };
+		1357858898668B065EF57B5E /* Shared/Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1F091F9B55C1ADB9E2144 /* Shared/Reminders.swift */; };
+		157DB5A8B7B2FCDA2C760C39 /* Shared/Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CE73BDECF117418679045 /* Shared/Store.swift */; };
+		29E42143A8A9D81FD4F2E145 /* App/DaylistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEF50F9E9B1508E8A7A5096 /* App/DaylistApp.swift */; };
+		332425C3C23A6881EB5146AB /* Shared/Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F03CC000BEFC9F767674FC /* Shared/Core.swift */; };
+		3490739BC2862F7C7D001494 /* Shared/ReminderPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A73B0C9C58DA0C7F1FB41 /* Shared/ReminderPlan.swift */; };
+		50B4E9C6640332538DE520EA /* App/AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4CDDEF57FD881C3AB2878 /* App/AppModel.swift */; };
+		633DE7CE70EF10A368B3BCBD /* App/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F048BFA7B57836F484F1B9C1 /* App/PrivacyInfo.xcprivacy */; };
+		734CFC135FC100DBBDC6DED3 /* Shared/CompleteTaskIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA556CC79E4FC25DD2507630 /* Shared/CompleteTaskIntent.swift */; };
+		74D9688FC487E6BF6585AFDB /* Shared/Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CE73BDECF117418679045 /* Shared/Store.swift */; };
+		7A1A51D808C3D5D61D649A35 /* App/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26784887E03A250B06027F4D /* App/SettingsView.swift */; };
+		7AF530ED069AFE411EA4DA97 /* App/ItemEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE2A6703BC9F2A59F872DA /* App/ItemEditor.swift */; };
+		7E787BE7AD44A02A02D38E85 /* App/TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45E824A1C9C0C8D484A8351 /* App/TodayView.swift */; };
+		825B86C761149A6ECD80A528 /* DaylistWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CC7DB7C43F6197D664FA42C3 /* DaylistWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		854D4783B41C1125EE6F11ED /* Widget/DaylistWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B3C2540699D8D7C69A30A1 /* Widget/DaylistWidget.swift */; };
+		C1A815AF83D17E986572B431 /* Shared/Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1F091F9B55C1ADB9E2144 /* Shared/Reminders.swift */; };
+		C53832939B33774CF3FF3726 /* App/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F048BFA7B57836F484F1B9C1 /* App/PrivacyInfo.xcprivacy */; };
+		C71C93FFDE9FB06CA3A6635A /* App/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16B6325BA8F1CFBCC279108 /* App/Assets.xcassets */; };
+		D25485D854A932D61E5E5AB1 /* Shared/Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F03CC000BEFC9F767674FC /* Shared/Core.swift */; };
+		FFD4FEC1EB23A611462DAB6D /* Shared/CompleteTaskIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA556CC79E4FC25DD2507630 /* Shared/CompleteTaskIntent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01E77404E10F254C43E64C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244210E48437B6556980A702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB318F37037900E173273CA2;
+			remoteInfo = DaylistWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B3E090DB545F4D7E323DB6E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				825B86C761149A6ECD80A528 /* DaylistWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0FA1F091F9B55C1ADB9E2144 /* Shared/Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Reminders.swift; sourceTree = "<group>"; };
+		1A8CE73BDECF117418679045 /* Shared/Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Store.swift; sourceTree = "<group>"; };
+		26784887E03A250B06027F4D /* App/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/SettingsView.swift; sourceTree = "<group>"; };
+		2FFE2A6703BC9F2A59F872DA /* App/ItemEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/ItemEditor.swift; sourceTree = "<group>"; };
+		3EEF50F9E9B1508E8A7A5096 /* App/DaylistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/DaylistApp.swift; sourceTree = "<group>"; };
+		70A4CDDEF57FD881C3AB2878 /* App/AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppModel.swift; sourceTree = "<group>"; };
+		72344A1086A4343E5F08538D /* Config/Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config/Widget.entitlements; sourceTree = "<group>"; };
+		8A677C6962E0A9A479527735 /* Daylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1C542B10A779EB6C6C5E71 /* Config/App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Config/App-Info.plist"; sourceTree = "<group>"; };
+		A45E824A1C9C0C8D484A8351 /* App/TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/TodayView.swift; sourceTree = "<group>"; };
+		A67D62E8DB1DC8FBCDAF9B63 /* Config/App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config/App.entitlements; sourceTree = "<group>"; };
+		B16B6325BA8F1CFBCC279108 /* App/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = App/Assets.xcassets; sourceTree = "<group>"; };
+		CB2A114079D5F86C10BA6867 /* Config/Build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/Build.xcconfig; sourceTree = "<group>"; };
+		CC7DB7C43F6197D664FA42C3 /* DaylistWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DaylistWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E348067D58B0F2793A24D309 /* Config/Widget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Config/Widget-Info.plist"; sourceTree = "<group>"; };
+		E6F03CC000BEFC9F767674FC /* Shared/Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Core.swift; sourceTree = "<group>"; };
+		E8B3C2540699D8D7C69A30A1 /* Widget/DaylistWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget/DaylistWidget.swift; sourceTree = "<group>"; };
+		EA556CC79E4FC25DD2507630 /* Shared/CompleteTaskIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/CompleteTaskIntent.swift; sourceTree = "<group>"; };
+		F048BFA7B57836F484F1B9C1 /* App/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = App/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F08A73B0C9C58DA0C7F1FB41 /* Shared/ReminderPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/ReminderPlan.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		707E49EF16439BAC2A41D917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A480D24FB7866396BE4E9CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3E27B8CA818264D75C8D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A677C6962E0A9A479527735 /* Daylist.app */,
+				CC7DB7C43F6197D664FA42C3 /* DaylistWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1021D66D9898DEACE5BAF62B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CB2A114079D5F86C10BA6867 /* Config/Build.xcconfig */,
+				9F1C542B10A779EB6C6C5E71 /* Config/App-Info.plist */,
+				E348067D58B0F2793A24D309 /* Config/Widget-Info.plist */,
+				A67D62E8DB1DC8FBCDAF9B63 /* Config/App.entitlements */,
+				72344A1086A4343E5F08538D /* Config/Widget.entitlements */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		1767EFB87E071416702E3554 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				E8B3C2540699D8D7C69A30A1 /* Widget/DaylistWidget.swift */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		19F479106CE8C3BA8C106518 = {
+			isa = PBXGroup;
+			children = (
+				90F63EE790D98E89B9A4116F /* App */,
+				FA680DCB25F4FC996D320B6F /* Shared */,
+				1767EFB87E071416702E3554 /* Widget */,
+				1021D66D9898DEACE5BAF62B /* Config */,
+				0A3E27B8CA818264D75C8D81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90F63EE790D98E89B9A4116F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				70A4CDDEF57FD881C3AB2878 /* App/AppModel.swift */,
+				3EEF50F9E9B1508E8A7A5096 /* App/DaylistApp.swift */,
+				2FFE2A6703BC9F2A59F872DA /* App/ItemEditor.swift */,
+				26784887E03A250B06027F4D /* App/SettingsView.swift */,
+				A45E824A1C9C0C8D484A8351 /* App/TodayView.swift */,
+				B16B6325BA8F1CFBCC279108 /* App/Assets.xcassets */,
+				F048BFA7B57836F484F1B9C1 /* App/PrivacyInfo.xcprivacy */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		FA680DCB25F4FC996D320B6F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EA556CC79E4FC25DD2507630 /* Shared/CompleteTaskIntent.swift */,
+				E6F03CC000BEFC9F767674FC /* Shared/Core.swift */,
+				F08A73B0C9C58DA0C7F1FB41 /* Shared/ReminderPlan.swift */,
+				0FA1F091F9B55C1ADB9E2144 /* Shared/Reminders.swift */,
+				1A8CE73BDECF117418679045 /* Shared/Store.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D0D8F0019B9AC4D4809CB3F /* Daylist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CEF0E6D2AB320648633B8E2 /* Build configuration list for PBXNativeTarget "Daylist" */;
+			buildPhases = (
+				1CBEF2E10D82C00802F07FEA /* Sources */,
+				707E49EF16439BAC2A41D917 /* Frameworks */,
+				88EFD0C87DA797FF8B62F854 /* Resources */,
+				6B3E090DB545F4D7E323DB6E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4C2D386AB0259F33DCDC427 /* PBXTargetDependency */,
+			);
+			name = Daylist;
+			productName = Daylist;
+			productReference = 8A677C6962E0A9A479527735 /* Daylist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB318F37037900E173273CA2 /* DaylistWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C82B40C940D67F1B37CD2C /* Build configuration list for PBXNativeTarget "DaylistWidget" */;
+			buildPhases = (
+				852754433117E58BA23519D5 /* Sources */,
+				A480D24FB7866396BE4E9CFB /* Frameworks */,
+				AB9ECFCCFADC80B003FA32FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaylistWidget;
+			productName = DaylistWidget;
+			productReference = CC7DB7C43F6197D664FA42C3 /* DaylistWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244210E48437B6556980A702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9D0D8F0019B9AC4D4809CB3F = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					BB318F37037900E173273CA2 = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1E56F87B57F2389817940826 /* Build configuration list for PBXProject "Daylist" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh_CN,
+				en,
+				Base,
+			);
+			mainGroup = 19F479106CE8C3BA8C106518;
+			productRefGroup = 0A3E27B8CA818264D75C8D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D0D8F0019B9AC4D4809CB3F /* Daylist */,
+				BB318F37037900E173273CA2 /* DaylistWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88EFD0C87DA797FF8B62F854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71C93FFDE9FB06CA3A6635A /* App/Assets.xcassets in Resources */,
+				633DE7CE70EF10A368B3BCBD /* App/PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9ECFCCFADC80B003FA32FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53832939B33774CF3FF3726 /* App/PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CBEF2E10D82C00802F07FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B4E9C6640332538DE520EA /* App/AppModel.swift in Sources */,
+				29E42143A8A9D81FD4F2E145 /* App/DaylistApp.swift in Sources */,
+				7AF530ED069AFE411EA4DA97 /* App/ItemEditor.swift in Sources */,
+				7A1A51D808C3D5D61D649A35 /* App/SettingsView.swift in Sources */,
+				7E787BE7AD44A02A02D38E85 /* App/TodayView.swift in Sources */,
+				734CFC135FC100DBBDC6DED3 /* Shared/CompleteTaskIntent.swift in Sources */,
+				D25485D854A932D61E5E5AB1 /* Shared/Core.swift in Sources */,
+				0C7C756A888474B1998A3FF8 /* Shared/ReminderPlan.swift in Sources */,
+				1357858898668B065EF57B5E /* Shared/Reminders.swift in Sources */,
+				74D9688FC487E6BF6585AFDB /* Shared/Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852754433117E58BA23519D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854D4783B41C1125EE6F11ED /* Widget/DaylistWidget.swift in Sources */,
+				FFD4FEC1EB23A611462DAB6D /* Shared/CompleteTaskIntent.swift in Sources */,
+				332425C3C23A6881EB5146AB /* Shared/Core.swift in Sources */,
+				3490739BC2862F7C7D001494 /* Shared/ReminderPlan.swift in Sources */,
+				C1A815AF83D17E986572B431 /* Shared/Reminders.swift in Sources */,
+				157DB5A8B7B2FCDA2C760C39 /* Shared/Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4C2D386AB0259F33DCDC427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB318F37037900E173273CA2 /* DaylistWidget */;
+			targetProxy = 01E77404E10F254C43E64C55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06ABA4D8E199BE0A94DDEF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2A114079D5F86C10BA6867 /* Config/Build.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER).widget";
+				PRODUCT_NAME = DaylistWidget;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		3C19424B1C292FA176447298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2A114079D5F86C10BA6867 /* Config/Build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = Daylist;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		43586A4F374F07061EB4E7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2A114079D5F86C10BA6867 /* Config/Build.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		726F2E77DF564A99795A36C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2A114079D5F86C10BA6867 /* Config/Build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = Daylist;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		E586200450788E9EA81D4522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2A114079D5F86C10BA6867 /* Config/Build.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB9777FD4E8D40DB178617F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2A114079D5F86C10BA6867 /* Config/Build.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER).widget";
+				PRODUCT_NAME = DaylistWidget;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E56F87B57F2389817940826 /* Build configuration list for PBXProject "Daylist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E586200450788E9EA81D4522 /* Debug */,
+				43586A4F374F07061EB4E7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C82B40C940D67F1B37CD2C /* Build configuration list for PBXNativeTarget "DaylistWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06ABA4D8E199BE0A94DDEF0B /* Debug */,
+				EB9777FD4E8D40DB178617F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CEF0E6D2AB320648633B8E2 /* Build configuration list for PBXNativeTarget "Daylist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C19424B1C292FA176447298 /* Debug */,
+				726F2E77DF564A99795A36C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244210E48437B6556980A702 /* Project object */;
+}

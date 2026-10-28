@@ -1,0 +1,28 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+*.xcarchive
+*.ipa
+*.xcuserstate
+xcuserdata/
+Config/Local.xcconfig
+
+# Signing material and local credentials
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.cer
+*.key
+.env
+.env.*
+!.env.example
+
+# Device data and local diagnostics
+checklist.json
+checklist.lock
+*.log
+*.xcresult
+__pycache__/
+*.pyc
